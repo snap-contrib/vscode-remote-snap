@@ -1,0 +1,11 @@
+// See https://aka.ms/vscode-remote/containers for the
+// documentation about the devcontainer.json format
+{
+	"name": "SNAP",
+	"context": "..",
+	"dockerFile": "Dockerfile",
+	"workspaceFolder": "/workspace",
+	"extensions": [
+		"ms-python.python"
+	]
+}
