@@ -5,7 +5,7 @@
 		
 	"build": {
 		"context": "..",
-		"dockerFile": "Dockerfile"},
+		"dockerfile": "./Dockerfile"},
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash",
 		"python.pythonPath": "/srv/conda/envs/env_snap/bin/python"},
