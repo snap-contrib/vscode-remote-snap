@@ -45,6 +45,9 @@ RUN chmod 755 /tmp/install-miniforge.bash                                       
     /tmp/install-miniforge.bash                                                                                                     && \
     rm -f /tmp/install-*.bash 
 
+# setup the python dev tools
+RUN mamba install -n base -y black flake8 pylint autopep8 mypy yapf bandit pycodestyle pydocstyle pylint
+
 # fix permissions
 RUN chown -R $NB_USER:$NB_GID ${HOME} 
 
