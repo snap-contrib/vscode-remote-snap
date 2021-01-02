@@ -24,7 +24,7 @@
 		"ms-python.python"
 	],
 	"mounts": [
-		"source=${localEnv:EO_DATA},target=/data,type=bind,consistency=cached",
-		"source=${localEnv:RESULTS},target=/results,type=bind,consistency=cached"
+		"source=${localEnv:HOME}/data,target=/data,type=bind,consistency=cached",
+		"source=${localEnv:HOME}/results,target=/results,type=bind,consistency=cached"
 	]
 }
