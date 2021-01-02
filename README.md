@@ -31,14 +31,24 @@ To get started, follow these steps:
 
     3. Sign out and back in again so your changes take effect.
 
-2. Install [Visual Studio Code](https://code.visualstudio.com/) 
+2. On **Windows** set the environment variable `HOME`
 
-3. Install the [Remote Development extension pack](https://aka.ms/vscode-remote/download/extension).
+3. Under `$HOME` create two folders: `data` and `results`
 
-4. Run `Remote-Containers: Clone Repository in Container Volume...` from the Command Palette (F1)
+4. Install [Visual Studio Code](https://code.visualstudio.com/) 
 
-5. Add the URL to this git repository: `https://github.com/snap-contrib/vscode-remote-snap.git`
+5. Install the [Remote Development extension pack](https://aka.ms/vscode-remote/download/extension).
 
-6. Select the Volume mode 
+6. Run `Remote-Containers: Clone Repository in Container Volume...` from the Command Palette (F1)
 
-7. Wait a few minutes for the build to complete
+7. Add the URL to this git repository: `https://github.com/snap-contrib/vscode-remote-snap.git`
+
+8. Select the Volume mode 
+
+9. Wait a few minutes for the build to complete
+
+## Getting started with EO data
+
+1. Download the Sentinel-1 product S1A_IW_GRDH_1SDV_20201228T170552_20201228T170617_035889_0433FB_D8C7 to `$HOME/data`
+
+2
