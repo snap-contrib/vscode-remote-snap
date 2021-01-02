@@ -49,6 +49,10 @@ To get started, follow these steps:
 
 ## Getting started with EO data
 
-1. Download the Sentinel-1 product S1A_IW_GRDH_1SDV_20201228T170552_20201228T170617_035889_0433FB_D8C7 to `$HOME/data`
+1. Download and extract the Sentinel-1 product S1A_IW_GRDH_1SDV_20201228T170552_20201228T170617_035889_0433FB_D8C7 acquisition to `$HOME/data`
 
-2
+2. Run the `inspect_s1.py` python script
+
+## Interactive Python 
+
+See https://code.visualstudio.com/docs/python/jupyter-support-py to learn about using interactive Python with Visual Studio Code
