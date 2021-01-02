@@ -23,5 +23,12 @@
 	"extensions": [
 		"ms-python.python"
 	],
+<<<<<<< HEAD
 	"mounts": ["source=${localEnv:EO_DATA},target=/data,type=bind,consistency=cached"]
+=======
+	"mounts": [
+		"source=${localEnv:HOME}/data,target=/data,type=bind,consistency=cached",
+		"source=${localEnv:HOME}/results,target=/results,type=bind,consistency=cached"
+	]
+>>>>>>> 3df7e1232047098c5b0246a8e38ae0263f4a7891
 }
