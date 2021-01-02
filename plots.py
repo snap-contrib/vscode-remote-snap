@@ -15,4 +15,4 @@ ax.set(xlabel='time (s)', ylabel='voltage (mV)',
 ax.grid()
 
 fig.savefig("test.png")
-plot.show()
+plt.show()

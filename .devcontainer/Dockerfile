@@ -51,6 +51,8 @@ RUN chown -R $NB_USER:$NB_GID ${HOME}
 RUN mkdir /workspace
 RUN chown -R $NB_USER:$NB_GID /workspace
 
+RUN git config --global http.sslverify false
+
 WORKDIR /workspace
 
 # Clean up
