@@ -22,5 +22,9 @@
 		"python.linting.pylintPath": "/srv/conda/bin/pylint"},
 	"extensions": [
 		"ms-python.python"
+	],
+	"mounts": [
+		"source=${localEnv:EO_DATA},target=/data,type=bind,consistency=cached",
+		"source=${localEnv:RESULTS},target=/results,type=bind,consistency=cached"
 	]
 }
