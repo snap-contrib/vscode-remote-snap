@@ -2,9 +2,13 @@
 // documentation about the devcontainer.json format
 {
 	"name": "SNAP",
-	"context": "..",
-	"dockerFile": "Dockerfile",
-	"workspaceFolder": "/workspace",
+		
+	"build": {
+		"context": "..",
+		"dockerFile": "Dockerfile"},
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"python.pythonPath": "/srv/conda/envs/env_snap/bin/python"},
 	"extensions": [
 		"ms-python.python"
 	]
