@@ -1,6 +1,7 @@
 FROM ubuntu:20.04
 
-MAINTAINER Terradue S.r.l
+LABEL maintainer="info@terradue.com"
+
 USER root
 
 ENV LC_ALL=en_US.UTF-8 \
